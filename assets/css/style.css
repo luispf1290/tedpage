@@ -254,6 +254,14 @@ footer .container .row img {
   margin-top: 15px;
 }
 
+/* Ventanas modales */
+.modal-vermas figure{
+  text-align: center;
+}
+.modal-vermas figure img{
+  width: 60%;
+}
+
 
 /* Estilos Modo Responsive */
 /* menor o igual 800px de ancho */
