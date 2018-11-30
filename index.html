@@ -9,6 +9,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/fonts.css" />
+  <link rel="stylesheet" href="assets/css/fadeIn.css">
   <title>The Enginers Deveolopers</title>
 </head>
 
@@ -72,16 +73,16 @@
     <div class="container img-about">
       <h2>Nuestro Equipo</h2>
       <div class="row">
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4 animated fadeIn animated delay-1s">
           <img src="assets/img/team/chino-developer.jpg" alt="desarrollador 1" class="rounded-circle">
           <h4>Carlo Andre Ponce Miranda</h4>
 
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4 animated fadeIn animated delay-1s">
           <img src="assets/img/team/developer-pina.png" alt="desarrollador 2" class="rounded-circle">
           <h4>Luis Emilio Piña Flores</h4>
         </div>
-        <div class="col-md-12 col-lg-4">
+        <div class="col-md-12 col-lg-4 animated fadeIn animated delay-1s">
           <img src="assets/img/team/developer_jimmy.jpg" alt="desarrollador 3" class="rounded-circle">
           <h4>Luis Jesus Torres Nieves</h4>
         </div>
@@ -147,21 +148,24 @@
       <div class="row img-proyectos">
         <div class="col-md-6 col-lg-3">
           <img src="assets/img/plantillas/banner_rock.png" alt="template1">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            ver mas
+          <button type="button" id="modal1" class="bt-modal" data-toggle="modal" data-target="#exampleModal">
+            Ver Mas
           </button>
         </div>
         <div class="col-md-6 col-lg-3">
           <img src="assets/img/plantillas/banner-tacos.png" alt="template2">
-          <button type="button">Ver mas</button>
+          <button type="button" id="modal2" class="bt-modal" data-toggle="modal" data-target="#exampleModal">Ver
+            mas</button>
         </div>
         <div class="col-md-6 col-lg-3">
           <img src="assets/img/plantillas/banner-ted.png" alt="template3">
-          <button type="button">Ver mas</button>
+          <button type="button" id="modal3" class="bt-modal" data-toggle="modal" data-target="#exampleModal">Ver
+            mas</button>
         </div>
         <div class="col-md-6 col-lg-3">
           <img src="assets/img/plantillas/mp-banner.png" alt="template4">
-          <button type="button">Ver mas</button>
+          <button type="button" id="modal4" class="bt-modal" data-toggle="modal" data-target="#exampleModal">Ver
+            mas</button>
         </div>
       </div>
     </div>
@@ -170,99 +174,97 @@
   <!-- contacto -->
   <section class="cont-contact">
     <div class="container">
-        <form action="" method="get">
-          <div class="container">
-            <h3> Contactanos</h3>
-            <form>
-              <!-- Form group -->
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="" class="col-form-label">Nombre</label>
-                  <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Nombre">
-                  <label for="" class="col-form-label">Apellido Paterno</label>
-                  <input type="text" class="form-control" name="apellidoP" id="apellidoP" placeholder="Primer Apellido">
-                  <label for="" class="col-form-label">Apellido Materno</label>
-                  <input type="text" class="form-control" name="apellidoM" id="apellidoP" placeholder="Segundo Apellido">
-                  <label for="" class="col-sm-1-12 col-form-label">Email</label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                  <label for="" class="col-sm-1-12 col-form-label">Telefono</label>
-                  <input type="number" class="form-control" name="phone" id="phone" placeholder="Telefono">
+      <form action="" method="get">
+        <div class="container">
+          <h3> Contactanos</h3>
+          <form>
+            <!-- Form group -->
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="" class="col-form-label">Nombre</label>
+                <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Nombre">
+                <label for="" class="col-form-label">Apellido Paterno</label>
+                <input type="text" class="form-control" name="apellidoP" id="apellidoP" placeholder="Primer Apellido">
+                <label for="" class="col-form-label">Apellido Materno</label>
+                <input type="text" class="form-control" name="apellidoM" id="apellidoP" placeholder="Segundo Apellido">
+                <label for="" class="col-sm-1-12 col-form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                <label for="" class="col-sm-1-12 col-form-label">Telefono</label>
+                <input type="number" class="form-control" name="phone" id="phone" placeholder="Telefono">
 
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="" class="col-form-label">Rubro de su negocio</label>
-                  <select class="form-control" name="" id="">
-                    <option>Agricultura</option>
-                    <option>Comercio</option>
-                    <option>Educativa</option>
-                    <option value="">Energia</option>
-                    <option value="">Gubernamental</option>
-                    <option value="">Inmobiliaria</option>
-                    <option value="">Manufactura</option>
-                    <option value="">Medios de Comunicacion</option>
-                    <option value="">Recreativo</option>
-                    <option value="">Salud</option>
-                    <option value="">Servicios Financieros</option>
-                    <option value="">Servicios Profecionales</option>
-                    <option value="">Transporte</option>
-                    <option value="">Turistica(alojamiento, alimentos y bebidas)</option>
-                  </select>
-                  <label for="" class="col-form-label">Servicio</label>
-                  <select class="form-control" name="" id="">
-                    <option>Pagina web</option>
-                    <option>Renovacion Pagina web</option>
-                    <option>Aplicacion Movil</option>
-                  </select>
-                  <label for="" class="col-form-label">¿Que tan proximo es su proyecto</label>
-                  <select name="" id="" class="form-control">
-                    <option value="">Lo antes posible</option>
-                    <option value="">De 3 a 6 meses</option>
-                    <option value="">De mas de 6 meses</option>
-                    <option value="">Aun no lo se</option>
-                  </select>
-                  <label for="" class="col-form-label">Describenos tu idea</label>
-                  <textarea class="form-control" name="" id="" rows="3"></textarea>
-                </div>
               </div>
-              <div class="form-group row">
-                <div class="offset-sm-4 col-sm-12">
-                  <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-                </div>
+              <div class="form-group col-md-6">
+                <label for="" class="col-form-label">Rubro de su negocio</label>
+                <select class="form-control" name="" id="">
+                  <option>Agricultura</option>
+                  <option>Comercio</option>
+                  <option>Educativa</option>
+                  <option value="">Energia</option>
+                  <option value="">Gubernamental</option>
+                  <option value="">Inmobiliaria</option>
+                  <option value="">Manufactura</option>
+                  <option value="">Medios de Comunicacion</option>
+                  <option value="">Recreativo</option>
+                  <option value="">Salud</option>
+                  <option value="">Servicios Financieros</option>
+                  <option value="">Servicios Profecionales</option>
+                  <option value="">Transporte</option>
+                  <option value="">Turistica(alojamiento, alimentos y bebidas)</option>
+                </select>
+                <label for="" class="col-form-label">Servicio</label>
+                <select class="form-control" name="" id="">
+                  <option>Pagina web</option>
+                  <option>Renovacion Pagina web</option>
+                  <option>Aplicacion Movil</option>
+                </select>
+                <label for="" class="col-form-label">¿Que tan proximo es su proyecto</label>
+                <select name="" id="" class="form-control">
+                  <option value="">Lo antes posible</option>
+                  <option value="">De 3 a 6 meses</option>
+                  <option value="">De mas de 6 meses</option>
+                  <option value="">Aun no lo se</option>
+                </select>
+                <label for="" class="col-form-label">Describenos tu idea</label>
+                <textarea class="form-control" name="" id="" rows="3"></textarea>
               </div>
-              <!-- END Form group -->
-            </form>
-          </div>
-        </form>
+            </div>
+            <div class="form-group row">
+              <div class="offset-sm-4 col-sm-12">
+                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+              </div>
+            </div>
+            <!-- END Form group -->
+          </form>
+        </div>
+      </form>
     </div>
   </section>
   <!-- END contacto -->
 
-  <!-- Ventana MOdal -->
-  <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- Ventana Modal -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Titulo de la plantilla</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
         </div>
         <div class="modal-body">
           <div class="container-fluid">
             <div class="row modal-vermas">
               <div class="col-sm-6 col-md-6">
-                <figure>
-                  <img src="assets/img/plantillas/rock.png" alt="">
+                <figure id="img-modal">
                 </figure>
               </div>
               <div class="col-sm-6 col-md-6">
-                <h3>Descripcion de la plantilla</h3>
-                <p>Lorem ipsum dolor sit amet consectetur 
-                  adipisicing elit. Vero a est eos numquam 
-                  incidunt vitae, deleniti et voluptates saepe, 
-                  praesentium eaque amet similique accusamus aperiam 
-                  quos nulla sint sunt ab!
-                </p>
+                <div id="desc-modal">
+                  <h3>Descripcion de la plantilla</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Vero a est eos numquam
+                    incidunt vitae, deleniti et voluptates saepe,
+                    praesentium eaque amet similique accusamus aperiam
+                    quos nulla sint sunt ab!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -326,6 +328,7 @@
     crossorigin="anonymous"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/header.js"></script>
+  <script src="assets/js/open-modal.js"></script>
 
 </body>
 
