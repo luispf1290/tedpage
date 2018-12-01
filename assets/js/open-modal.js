@@ -21,7 +21,7 @@ $(function () {
                     '<h5 class="modal-title" id="exampleModalLabel">TED developers</h5>' +
                     '<button type="button" class="close" data-dismiss="modal" aria-label="Close">' +
                     '<span aria-hidden="true">&times;</span> </button>');
-                $('#img-modal').html('<img src="assets/img/plantillas/template-tacos.png" alt="">');
+                $('#img-modal').html('<img src="assets/img/plantillas/template-ted.png" alt="">');
                 break;
             case 'modal4':
                 $(".modal-header").html(
