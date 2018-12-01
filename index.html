@@ -15,8 +15,7 @@
 
 <body>
   <!-- Header -->
-  <header class="">
-
+  <header>
     <div class="menu-bar">
       <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
     </div>
@@ -24,7 +23,6 @@
     <div class="logo">
       <img src="assets/img/tedblanco.png" alt="">
     </div>
-
     <nav>
       <ul>
         <li>
@@ -68,6 +66,7 @@
         </div>
     </div>
   </section>
+  <!-- END banner -->
   <!-- Nosotros  team-->
   <section class="cont-about">
     <div class="container img-about">
@@ -90,6 +89,7 @@
 
     </div>
   </section>
+  <!-- END Nosotros Team -->
   <!-- Servicios -->
   <section class="cont-servicios">
     <div class="container imgs-servicios">
@@ -171,74 +171,132 @@
     </div>
   </section>
 
-  <!-- contacto -->
+  <!-- contacto Problema aqui-->
   <section class="cont-contact">
-    <div class="container">
-      <form action="" method="get">
-        <div class="container">
-          <h3> Contactanos</h3>
-          <form>
-            <!-- Form group -->
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="" class="col-form-label">Nombre</label>
-                <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Nombre">
-                <label for="" class="col-form-label">Apellido Paterno</label>
-                <input type="text" class="form-control" name="apellidoP" id="apellidoP" placeholder="Primer Apellido">
-                <label for="" class="col-form-label">Apellido Materno</label>
-                <input type="text" class="form-control" name="apellidoM" id="apellidoP" placeholder="Segundo Apellido">
-                <label for="" class="col-sm-1-12 col-form-label">Email</label>
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                <label for="" class="col-sm-1-12 col-form-label">Telefono</label>
-                <input type="number" class="form-control" name="phone" id="phone" placeholder="Telefono">
+    <form action="" method="post">
+      <div class="container">
+        <h3>Contactanos</h3>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="" class="col-form-label">Nombre</label>
+            <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Nombre">
+            <label for="" class="col-form-label">Apellido Paterno</label>
+            <input type="text" class="form-control" name="apellidoP" id="apellidoP" placeholder="Primer Apellido">
+            <label for="" class="col-form-label">Apellido Materno</label>
+            <input type="text" class="form-control" name="apellidoM" id="apellidoP" placeholder="Segundo Apellido">
+            <label for="" class="col-sm-1-12 col-form-label">Email</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+            <label for="" class="col-sm-1-12 col-form-label">Telefono</label>
+            <input type="number" class="form-control" name="phone" id="phone" placeholder="Telefono">
 
-              </div>
-              <div class="form-group col-md-6">
-                <label for="" class="col-form-label">Rubro de su negocio</label>
-                <select class="form-control" name="" id="">
-                  <option>Agricultura</option>
-                  <option>Comercio</option>
-                  <option>Educativa</option>
-                  <option value="">Energia</option>
-                  <option value="">Gubernamental</option>
-                  <option value="">Inmobiliaria</option>
-                  <option value="">Manufactura</option>
-                  <option value="">Medios de Comunicacion</option>
-                  <option value="">Recreativo</option>
-                  <option value="">Salud</option>
-                  <option value="">Servicios Financieros</option>
-                  <option value="">Servicios Profecionales</option>
-                  <option value="">Transporte</option>
-                  <option value="">Turistica(alojamiento, alimentos y bebidas)</option>
-                </select>
-                <label for="" class="col-form-label">Servicio</label>
-                <select class="form-control" name="" id="">
-                  <option>Pagina web</option>
-                  <option>Renovacion Pagina web</option>
-                  <option>Aplicacion Movil</option>
-                </select>
-                <label for="" class="col-form-label">¿Que tan proximo es su proyecto</label>
-                <select name="" id="" class="form-control">
-                  <option value="">Lo antes posible</option>
-                  <option value="">De 3 a 6 meses</option>
-                  <option value="">De mas de 6 meses</option>
-                  <option value="">Aun no lo se</option>
-                </select>
-                <label for="" class="col-form-label">Describenos tu idea</label>
-                <textarea class="form-control" name="" id="" rows="3"></textarea>
-              </div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="" class="col-form-label">Rubro de su negocio</label>
+            <select class="form-control" name="" id="">
+              <option>Agricultura</option>
+              <option>Comercio</option>
+              <option>Educativa</option>
+              <option value="">Energia</option>
+              <option value="">Gubernamental</option>
+              <option value="">Inmobiliaria</option>
+              <option value="">Manufactura</option>
+              <option value="">Medios de Comunicacion</option>
+              <option value="">Recreativo</option>
+              <option value="">Salud</option>
+              <option value="">Servicios Financieros</option>
+              <option value="">Servicios Profecionales</option>
+              <option value="">Transporte</option>
+              <option value="">Turistica(alojamiento, alimentos y bebidas)</option>
+            </select>
+            <label for="" class="col-form-label">Servicio</label>
+            <select class="form-control" name="" id="">
+              <option>Pagina web</option>
+              <option>Renovacion Pagina web</option>
+              <option>Aplicacion Movil</option>
+            </select>
+            <label for="" class="col-form-label">¿Que tan proximo es su proyecto</label>
+            <select name="" id="" class="form-control">
+              <option value="">Lo antes posible</option>
+              <option value="">De 3 a 6 meses</option>
+              <option value="">De mas de 6 meses</option>
+              <option value="">Aun no lo se</option>
+            </select>
+            <label for="" class="col-form-label">Describenos tu idea</label>
+            <textarea class="form-control" name="" id="" rows="3"></textarea>
+          </div>
+          <div class="form-group row">
+            <div class="offset-sm-4 col-sm-12">
+              <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
             </div>
-            <div class="form-group row">
-              <div class="offset-sm-4 col-sm-12">
-                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-              </div>
-            </div>
-            <!-- END Form group -->
-          </form>
+          </div>
         </div>
-      </form>
-    </div>
+      </div>
+    </form>
   </section>
+  <!-- <section class="cont-contact">
+    <form action="" method="get">
+      <div class="container">
+        <h3> Contactanos</h3>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="" class="col-form-label">Nombre</label>
+              <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Nombre">
+              <label for="" class="col-form-label">Apellido Paterno</label>
+              <input type="text" class="form-control" name="apellidoP" id="apellidoP" placeholder="Primer Apellido">
+              <label for="" class="col-form-label">Apellido Materno</label>
+              <input type="text" class="form-control" name="apellidoM" id="apellidoP" placeholder="Segundo Apellido">
+              <label for="" class="col-sm-1-12 col-form-label">Email</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+              <label for="" class="col-sm-1-12 col-form-label">Telefono</label>
+              <input type="number" class="form-control" name="phone" id="phone" placeholder="Telefono">
+
+            </div>
+            <div class="form-group col-md-6">
+              <label for="" class="col-form-label">Rubro de su negocio</label>
+              <select class="form-control" name="" id="">
+                <option>Agricultura</option>
+                <option>Comercio</option>
+                <option>Educativa</option>
+                <option value="">Energia</option>
+                <option value="">Gubernamental</option>
+                <option value="">Inmobiliaria</option>
+                <option value="">Manufactura</option>
+                <option value="">Medios de Comunicacion</option>
+                <option value="">Recreativo</option>
+                <option value="">Salud</option>
+                <option value="">Servicios Financieros</option>
+                <option value="">Servicios Profecionales</option>
+                <option value="">Transporte</option>
+                <option value="">Turistica(alojamiento, alimentos y bebidas)</option>
+              </select>
+              <label for="" class="col-form-label">Servicio</label>
+              <select class="form-control" name="" id="">
+                <option>Pagina web</option>
+                <option>Renovacion Pagina web</option>
+                <option>Aplicacion Movil</option>
+              </select>
+              <label for="" class="col-form-label">¿Que tan proximo es su proyecto</label>
+              <select name="" id="" class="form-control">
+                <option value="">Lo antes posible</option>
+                <option value="">De 3 a 6 meses</option>
+                <option value="">De mas de 6 meses</option>
+                <option value="">Aun no lo se</option>
+              </select>
+              <label for="" class="col-form-label">Describenos tu idea</label>
+              <textarea class="form-control" name="" id="" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="offset-sm-4 col-sm-12">
+              <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </form>
+
+  </section> -->
   <!-- END contacto -->
 
   <!-- Ventana Modal -->

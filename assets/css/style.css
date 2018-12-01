@@ -22,6 +22,7 @@ body {
 header {
   width: 100%;
   background: #023859;
+  overflow: hidden;
   position: fixed;
   height: 60px;
   z-index: 1000;
@@ -41,7 +42,7 @@ header .logo img {
 header nav {
   z-index: 1000;
   max-width: 1000px;
-  width: 95%;
+  width: 100%;
   margin: auto;
   float: right;
 }
@@ -222,6 +223,7 @@ header nav ul li a span {
 }
 
 .cont-contact {
+  width: 100%;
   padding: 30px 0px;
   background: rgba(255, 255, 255, 0.6);
 }
