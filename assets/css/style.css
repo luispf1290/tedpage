@@ -111,7 +111,7 @@ header nav ul li a span {
 
 .contenedor div {
   width: 50%;
-  margin: 20px 0;
+  margin: auto;
   text-align: center;
   color: white;
   position: absolute;
@@ -127,6 +127,7 @@ header nav ul li a span {
 
 .contenedor div p {
   font-size: 20px;
+  margin: auto
 }
 
 .contenedor .bt-banner {
@@ -294,8 +295,8 @@ footer .container .row img {
 }
 
 /* Estilos Modo Responsive */
-/* menor o igual 800px de ancho */
-@media screen and (max-width: 800px) {
+/* menor o igual 768px de ancho */
+@media screen and (max-width: 768px){
   body {
     padding-top: 80px;
   }
@@ -389,7 +390,7 @@ footer .container .row img {
   }
 
   .img-proyectos img {
-    width: 420px;
+    width: 350px;
     height: 220px;
     position: relative;
   }
@@ -401,7 +402,6 @@ footer .container .row img {
 
   
 }
-
 /* mayor o igual 768px de ancho y menor o igual 992px de ancho */
 @media screen and (min-width:768px) and (max-width:992px) {
 
@@ -430,4 +430,31 @@ footer .container .row img {
   }
 
 
+}
+
+@media screen and (max-width:480px){
+  .img-proyectos img{
+    width: 290px;
+    height: 170px;
+  }
+
+  .imgs-servicios .row div img {
+    width: 300px;
+    height: 220px;
+  }
+
+  .contenedor .bt-banner {
+    width: 300px;
+    height: 50px;
+    margin-top: 195px;
+    padding: 10px 30px;
+  }
+  .contenedor div h1{
+    font-size: 25px;
+    margin: auto;
+  }
+
+  .bt-modal{
+    width: 260px;
+  }
 }
