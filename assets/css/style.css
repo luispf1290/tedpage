@@ -400,7 +400,7 @@ footer .container .row img {
     width: 300px;
   }
 
-  
+
 }
 /* mayor o igual 768px de ancho y menor o igual 992px de ancho */
 @media screen and (min-width:768px) and (max-width:992px) {
