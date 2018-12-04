@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link  rel="icon" href="assets/img/tedblanco.png" type="image/png" />
+  <link rel="icon" href="assets/img/tedblanco.png" type="image/png" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
@@ -28,7 +29,7 @@
           <a href="#"><span class="icon-home3"></span>Inicio</a>
         </li>
         <li>
-          <a  href="#About"><span class="icon-briefcase"></span>Quienes Somos</a>
+          <a href="#About"><span class="icon-briefcase"></span>Quienes Somos</a>
         </li>
         <li class="submenu">
           <a href="#"><span class="icon-rocket"></span>Proyectos
@@ -71,9 +72,10 @@
         <div class="col-lg-6">
           <h3>Renueva tu WEB</h3>
           <p>Si tu sito web necesita una actualizacion, nosostros te brindamos las mejores opciones
-          para mejorar la visualizacion de tu sitio y queden asombrados con el resultado.</p>
+            para mejorar la visualizacion de tu sitio y queden asombrados con el resultado.</p>
           <p>Contamos con una amplia cantidad de plantillas que ponemos a tu disposicion, ya que si es necesario
-          te generamos tu plantilla personalizada para que tu sitio web se fresco y que genere una gran cantidad de visitas.</p>
+            te generamos tu plantilla personalizada para que tu sitio web se fresco y que genere una gran cantidad de
+            visitas.</p>
           <p></p>
         </div>
         <div class="col-lg-6">
@@ -139,19 +141,19 @@
         <div class="col-lg-6">
           <h3>Diseñadores WEB Expertos</h3>
           <p>Nuestro principal enfoque es la satisfaccion del cliente, ya que te ofrecemos
-          exsperiencias digitales funcionales e interactivas con rl fin de satisfacer
-          las necesidades que requieres para lanzar hoy mismo tu sitio web.</p>
+            exsperiencias digitales funcionales e interactivas con rl fin de satisfacer
+            las necesidades que requieres para lanzar hoy mismo tu sitio web.</p>
           <p>El mantemiento de un sitio web es esencial, ya que es necesario tenerlo actualizado
-          a las tendencias que estan en la cima del desarrollo y lo mas visitado en los ultimos años.</p>
+            a las tendencias que estan en la cima del desarrollo y lo mas visitado en los ultimos años.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6">
           <h3>Lanza tu App</h3>
           <p>Si tienes pensado lanzar un App, nosotros te brindamos las mejores propuestas para
-          que la app sea funcional y tenga una experiencia de usuario amigable.</p>
+            que la app sea funcional y tenga una experiencia de usuario amigable.</p>
           <p>La aplicacion que sera creada se podra instalar tanto en dispositivos Android como IOS,
-          ya que nosotros nos enfocamos en los dispositivos con mas mercado.</p>
+            ya que nosotros nos enfocamos en los dispositivos con mas mercado.</p>
         </div>
         <div class="col-lg-6">
           <div id="myCarousel2" class="carousel slide" data-ride="carousel">
@@ -168,7 +170,8 @@
                 <img class="second-slide" src="assets/img/mobile-app-development-myths.png" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="third-slide" src="assets/img/native-hybrid-mobile-apps-development-services-company-WebNetCreatives.png" alt="Third slide">
+                <img class="third-slide" src="assets/img/native-hybrid-mobile-apps-development-services-company-WebNetCreatives.png"
+                  alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#myCarousel2" role="button" data-slide="prev">
@@ -216,26 +219,22 @@
 
   <!-- contacto-->
   <section class="cont-contact">
-    <form action="" method="post">
+    <form action="mail.php" method="POST">
       <div class="container">
         <h3>Contactanos</h3>
         <div class="form-row">
           <div class="form-group col-12 col-sm-12 col-md-6">
-            <label for="" class="col-form-label">Nombre</label>
-            <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Nombre">
-            <!-- <label for="" class="col-form-label">Apellido Paterno</label>
-            <input type="text" class="form-control" name="apellidoP" id="apellidoP" placeholder="Primer Apellido">
-            <label for="" class="col-form-label">Apellido Materno</label>
-            <input type="text" class="form-control" name="apellidoM" id="apellidoP" placeholder="Segundo Apellido"> -->
-            <label for="" class="col-sm-1-12 col-form-label">Email</label>
+            <label for="nombre" class="col-form-label">Nombre</label>
+            <input type="text" class="form-control" name="nombre" id="inputName" placeholder="Nombre">
+            <label for="email" class="col-sm-1-12 col-form-label">Email</label>
             <input type="email" class="form-control" name="email" id="email" placeholder="Email">
             <label for="" class="col-sm-1-12 col-form-label">Telefono</label>
             <input type="number" class="form-control" name="phone" id="phone" placeholder="Telefono">
 
           </div>
           <div class="form-group col-12 col-sm-12 col-md-6">
-            <label for="" class="col-form-label">Rubro de su negocio</label>
-            <select class="form-control" name="" id="">
+            <label for="negocio" class="col-form-label">Rubro de su negocio</label>
+            <select class="form-control" name="negocio" id="">
               <option>............</option>
               <option>Agricultura</option>
               <option>Comercio</option>
@@ -252,8 +251,8 @@
               <option value="">Transporte</option>
               <option value="">Turistica(alojamiento, alimentos y bebidas)</option>
             </select>
-            <label for="" class="col-form-label">Servicio</label>
-            <select class="form-control" name="" id="">
+            <label for="servicio" class="col-form-label">Servicio</label>
+            <select class="form-control" name="servicio" id="">
               <option>............</option>
               <option>Pagina web</option>
               <option>Renovacion Pagina web</option>
@@ -261,8 +260,8 @@
               <option>Aplicacion Movil</option>
               <option>Soporte Tecnico</option>
             </select>
-            <label for="" class="col-form-label">¿Que tan proximo es su proyecto</label>
-            <select name="" id="" class="form-control">
+            <label for="fecha" class="col-form-label">¿Que tan proximo es su proyecto</label>
+            <select name="fecha" id="" class="form-control">
               <option>............</option>
               <option value="">Lo antes posible</option>
               <option value="">De 3 a 6 meses</option>
@@ -270,7 +269,7 @@
               <option value="">Aun no lo se</option>
             </select>
             <label for="" class="col-form-label">Describenos tu idea</label>
-            <textarea class="form-control" name="" id="" rows="3"></textarea>
+            <textarea class="form-control" name="idea" id="" rows="3"></textarea>
           </div>
           <div class="form-group offset-5 col-md-7">
             <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
@@ -365,9 +364,9 @@
           <div class="container redes">
             <h3>Siguenos en : </h3>
             <div>
-              <a href="https://www.facebook.com/ThisEngineersDevelop" target="_blank"><span  class="icon-facebook"></span></a>
-              <a href="https://www.instagram.com/thisenginersdevelop/" target="_blank"><span  class="icon-instagram"></span></a>
-              <a href="https://twitter.com/TED52361415" target="_blank"><span  class="icon-twitter"></span></a>
+              <a href="https://www.facebook.com/ThisEngineersDevelop" target="_blank"><span class="icon-facebook"></span></a>
+              <a href="https://www.instagram.com/thisenginersdevelop/" target="_blank"><span class="icon-instagram"></span></a>
+              <a href="https://twitter.com/TED52361415" target="_blank"><span class="icon-twitter"></span></a>
             </div>
           </div>
         </div>
