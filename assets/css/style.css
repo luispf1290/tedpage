@@ -275,6 +275,10 @@ footer .container .row img {
   padding: 8px 0px;
 }
 
+.redes div a{
+  text-decoration: none;
+}
+
 .redes div span {
   font-size: 35px;
   padding: 10px;
