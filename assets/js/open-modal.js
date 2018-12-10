@@ -43,9 +43,11 @@ $(function () {
                     '<h3 class="modal-title" id="exampleModalLabel">Refrigeration blueSky</h3>' +
                     '<button type="button" class="close" data-dismiss="modal" aria-label="Close">' +
                     '<span aria-hidden="true">&times;</span> </button>');
-                $('#img-modal').html('<img src="assets/img/plantillas/template-tacos.png" alt="">');
+                $('#img-modal').html('<img src="assets/img/plantillas/template-mp.png" alt="">');
                 $('#desc-modal').html('<h4>Climatiza tus ideas</h4>' +
-                    '<p></p>');
+                    '<p>Pagina donde se ofrece el servicio profesional de la instalacion y reparacion' +
+                    ' de aires acondicionados, esta pagina ofrece animaciones en las imagenes que hace que'+
+                    ' al cliente le sea mas llamativa brindandole una mejor presentacion de su marca.</p>');
                 break;
             default:
                 break;
