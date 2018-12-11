@@ -9,8 +9,13 @@ $(function () {
                     ' <span aria-hidden="true">&times;</span> </button>');
                 $('#img-modal').html('<img src="assets/img/plantillas/rock.png" alt="">');
 
-                $('#desc-modal').html('<h4>Descripcion de la plantilla</h4>' +
-                    '<p></p>');
+                $('#desc-modal').html('<h4>Catalogo, historia y mas...</h4>' +
+                    '<p>Esta platilla puede ofrecer a los usuarios una experiencia genial'+
+                    ', ya que permite tener una gran cantidad de productos dentro del catalogo y asi mismo '+
+                    'poder optener información de quienes son los creadores del productor,'+
+                    'mostrar estadisticas,precios e historia del mismo. '+
+                    'Asi mismo cuenta con formulario de contacto para obtener mas informacion.'+
+                    '</p>');
                 break;
             case 'modal2':
                 $(".modal-header").html(
