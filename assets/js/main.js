@@ -5,6 +5,7 @@ var contador = 1;
 // Mostramos y ocultamos barra de menu
 
 function main (){
+    // Mostramos y ocultamos barra de menu
     $('.menu-bar').click(function () { 
         if (contador == 1) {
             $('nav').animate({ left: '0' });
@@ -15,6 +16,11 @@ function main (){
             $('nav').animate({ left: '-100%' });
         }
         
+    });
+
+    $('.item-nav').click(function () { 
+        contador = 1;
+        $('nav').animate({ left: '-100%' });      
     });
 
     // Mostramos y ocultamos submenus
