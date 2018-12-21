@@ -325,12 +325,19 @@ footer .container .row img {
 
   .menu-bar .bt-menu {
     display: block;
-    padding: 20px;
+    padding: 20px 25px;
+    width: 100%;
+    border: solid 1px white;
+    background: none;
     color: white;
     overflow: hidden;
-    font-size: 20px;
     font-weight: bold;
-    text-decoration: none;
+  }
+
+  .bt-menu img{
+    float: left;
+    width: 40px;
+    height: 45px;
   }
 
   .menu-bar span {
