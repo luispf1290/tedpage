@@ -19,85 +19,8 @@ body {
   display: none;
 }
 
-header {
-  width: 100%;
-  background: #14191b;
-  overflow: hidden;
-  position: fixed;
-  height: 60px;
-  z-index: 1000;
-}
-
-header .logo {
-  margin: auto;
-  padding: 6px 40px;
-  float: left;
-}
-
-header .logo img {
-  width: 45px;
-  height: 45px;
-}
-
-header nav {
-  z-index: 1000;
-  max-width: 1024px;
-  width: 100%;
-  margin: auto;
-  float: right;
-}
-
-header nav ul {
-  list-style: none;
-}
-
-header nav ul li {
-  display: inline-block;
-  position: relative;
-}
-
-header nav ul li .caret {
-  position: relative;
-  top: 3px;
-  margin-left: 10px;
-  margin-right: 0px;
-}
-
-header nav ul li:hover {
-  background: #f3edf3;
-}
-
-header nav ul li:hover .children {
-  display: block;
-}
-
-header nav ul li .children {
-  display: none;
-  background: #011826;
-  position: absolute;
-  width: 150%;
-  z-index: 1000;
-}
-
-header nav ul li .children li {
-  display: block;
-  overflow: hidden;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-header nav ul li a {
-  color: white !important;
-  display: block;
-  text-decoration: none !important;
-  padding: 20px;
-}
-
-header nav ul li a:hover{
-  color: black !important;
-}
-
-header nav ul li a span {
-  margin-right: 10px;
+header  {
+  z-index: 10nav00;
 }
 
 .contenedor {
@@ -235,7 +158,7 @@ header nav ul li a span {
 footer {
   width: 100%;
   height: auto;
-  background: #090925;
+  background: #cc6600;
   padding: 20px;
 }
 
