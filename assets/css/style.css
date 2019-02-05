@@ -19,16 +19,15 @@ body {
   display: none;
 }
 
-header  {
+header {
   z-index: 10nav00;
 }
 
 .contenedor {
   background: rgba(13, 49, 211, 0.452);
-  width: 100%;
   height: 800px;
   margin: auto;
-  padding-top: 60px;
+  padding-top: 80px;
   position: relative;
 }
 
@@ -124,7 +123,7 @@ header  {
   padding: 10px;
 }
 
-.bt-modal{
+.bt-modal {
   width: 80%;
   height: 40px;
   background: #0a0f3d;
@@ -142,8 +141,8 @@ header  {
   left: 55%;
 }
 
-.bt-modal:hover{
-  background:rgba(13, 49, 211, 0.404);
+.bt-modal:hover {
+  background: rgba(13, 49, 211, 0.404);
   color: white;
   border: #ebdada solid 0.5px;
   box-shadow: inset 0 0 0 3px white;
@@ -198,7 +197,7 @@ footer .container .row img {
   padding: 8px 0px;
 }
 
-.redes div a{
+.redes div a {
   text-decoration: none;
 }
 
@@ -214,16 +213,17 @@ footer .container .row img {
 }
 
 /* Ventanas modales */
-.modal-vermas figure{
+.modal-vermas figure {
   text-align: center;
 }
-.modal-vermas figure img{
+
+.modal-vermas figure img {
   width: 60%;
 }
 
 /* Estilos Modo Responsive */
 /* menor o igual 768px de ancho */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   body {
     padding-top: 80px;
   }
@@ -257,7 +257,7 @@ footer .container .row img {
     font-weight: bold;
   }
 
-  .bt-menu img{
+  .bt-menu img {
     float: left;
     width: 40px;
     height: 45px;
@@ -330,13 +330,14 @@ footer .container .row img {
     position: relative;
   }
 
-  .bt-modal{
+  .bt-modal {
     left: 50%;
     width: 300px;
   }
 
 
 }
+
 /* mayor o igual 640px de ancho y menor o igual 992px de ancho */
 @media only screen and (min-width:640px) and (max-width:992px) {
 
@@ -359,16 +360,17 @@ footer .container .row img {
     padding: 10px 30px;
   }
 
-  .bt-modal{
+  .bt-modal {
     width: 200px;
     left: 50%;
   }
 
 
 }
+
 /* menor o igual a 480px */
-@media only screen and (max-width:480px){
-  .img-proyectos img{
+@media only screen and (max-width:480px) {
+  .img-proyectos img {
     width: 290px;
     height: 170px;
   }
@@ -390,12 +392,12 @@ footer .container .row img {
     margin: 10px;
   }
 
-  .contenedor div h1{
+  .contenedor div h1 {
     font-size: 25px;
     margin: auto;
   }
 
-  .bt-modal{
+  .bt-modal {
     width: 260px;
   }
 }
